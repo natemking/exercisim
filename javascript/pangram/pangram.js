@@ -15,9 +15,3 @@ export const isPangram = (sentence) => {
   return true;
   
 };
-
-
-console.log(isPangram('the quick brown fox jumps over the lazy dog'));
-console.log(isPangram('the_quick_brown_fox_jumps_over_the_lazy_dog'));
-console.log(isPangram('the 1 quick brown fox jumps over the 2 lazy dogs'));
-console.log(isPangram("Five quacking Zephyrs jolt my wax bed."));
